@@ -1,12 +1,12 @@
 import { Character } from "./CharacterAbstract";
 
-export class Human extends Character {
+export class Elf extends Character {
     constructor(name: String) {
         super(name);
-        this.life=20
+        this.life=15
     }
 
     public passive(): void {
-        console.log("Bonus of +5 in inteligence")
+        console.log("Bonus of +8 in dextirity")
     }
 }

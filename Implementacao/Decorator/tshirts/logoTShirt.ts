@@ -1,7 +1,7 @@
 import { DecoratorTShirt } from "./decoratorTShirt"
 
 export class LogoTShirt extends DecoratorTShirt {
-    getDescription(): String {
+    getDescription(): string {
         return `${super.getDescription()} com logo`
     }
 

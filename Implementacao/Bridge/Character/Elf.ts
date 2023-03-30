@@ -1,8 +1,8 @@
 import { Character } from "./CharacterAbstract";
 
 export class Elf extends Character {
-    constructor(name: String) {
-        super(name);
+    constructor(name: string, weapon: Weapon) {
+        super(name, weapon);
         this.life=15
     }
 

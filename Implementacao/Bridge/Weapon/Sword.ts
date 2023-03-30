@@ -7,4 +7,7 @@ export class Sword implements Weapon{
     damage(): number {
         return 10;
     }
+    defense(): number {
+        return 10;
+    }
 }

@@ -7,4 +7,7 @@ export class Shield implements Weapon{
     damage(): number {
         return 5;
     }
+    defense(): number {
+        return 15;
+    }
 }

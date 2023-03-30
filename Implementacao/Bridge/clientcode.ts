@@ -6,7 +6,9 @@ import { Sword } from "./Weapon/Sword"
 const lucas = new Human("Lucas", new Sword())
 const estadoBrasileiro = new Orc('Estado Brasileiro', new Shield())
 
-lucas.attack(estadoBrasileiro)
-lucas.attack(estadoBrasileiro)
-lucas.attack(estadoBrasileiro)
-lucas.attack(estadoBrasileiro)
+estadoBrasileiro.Defend();
+lucas.attack(estadoBrasileiro);
+lucas.attack(estadoBrasileiro);
+lucas.attack(estadoBrasileiro);
+estadoBrasileiro.Defend();
+estadoBrasileiro.Defend();

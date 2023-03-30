@@ -1,4 +1,5 @@
 import { Character } from "./CharacterAbstract";
+import { Weapon } from "../Weapon/WeaponInterface";
 
 export class Human extends Character {
     constructor(name: string, weapon: Weapon) {

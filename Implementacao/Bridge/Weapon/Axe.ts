@@ -7,4 +7,7 @@ export class Axe implements Weapon{
     damage(): number {
         return 15;
     }
+    defense(): number {
+        return 5;
+    }
 }

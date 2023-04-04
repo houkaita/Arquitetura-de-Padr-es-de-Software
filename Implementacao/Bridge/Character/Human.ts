@@ -1,9 +1,10 @@
 import { Character } from "./CharacterAbstract";
+import { Weapon } from "../Weapon/WeaponInterface";
 
 export class Human extends Character {
-    constructor(name: String) {
-        super(name);
-        this.life=20
+    constructor(name: string, weapon: Weapon) {
+        super(name, weapon);
+        this.life=20;
     }
 
     public passive(): void {

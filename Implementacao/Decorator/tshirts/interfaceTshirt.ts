@@ -1,4 +1,4 @@
 export interface TShirt {
-    getDescription(): String;
+    getDescription(): string;
     getPrice(): number;
 }

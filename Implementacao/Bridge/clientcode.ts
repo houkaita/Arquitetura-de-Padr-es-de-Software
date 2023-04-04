@@ -3,24 +3,12 @@ import { Orc } from "./Character/Orc";
 import { Shield } from "./Weapon/Shield";
 import { Sword } from "./Weapon/Sword"
 
-const lucas = new Human("Lucas");
-const minhaEspada = new Sword(lucas)
+const lucas = new Human("Lucas", new Sword())
+const estadoBrasileiro = new Orc('Estado Brasileiro', new Shield())
 
-const estadoBrasileiro = new Orc("Estado Brasileiro")
-const escudoPatriota = new Shield(estadoBrasileiro)
-
-minhaEspada.FastAtack(estadoBrasileiro)
-
-minhaEspada.FastAtack(estadoBrasileiro)
-
-minhaEspada.FastAtack(estadoBrasileiro)
-
-minhaEspada.FastAtack(estadoBrasileiro)
-
-escudoPatriota.Defend()
-
-minhaEspada.StrongAtack(estadoBrasileiro)
-minhaEspada.StrongAtack(estadoBrasileiro)
-minhaEspada.StrongAtack(estadoBrasileiro)
-minhaEspada.StrongAtack(estadoBrasileiro)
-minhaEspada.StrongAtack(estadoBrasileiro)
+estadoBrasileiro.Defend();
+lucas.attack(estadoBrasileiro);
+lucas.attack(estadoBrasileiro);
+lucas.attack(estadoBrasileiro);
+estadoBrasileiro.Defend();
+estadoBrasileiro.Defend();

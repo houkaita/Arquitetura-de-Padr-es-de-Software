@@ -7,7 +7,7 @@ export class DecoratorTShirt implements TShirt {
         this.tshirt = tshirt
     }
 
-    getDescription(): String {
+    getDescription(): string {
         return this.tshirt.getDescription()
     }
 

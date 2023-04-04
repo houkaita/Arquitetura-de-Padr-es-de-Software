@@ -1,5 +1,5 @@
 class subSystemA {
-    method(A: String): String {
+    method(A: string): string {
       return A;
     }
   }
@@ -17,7 +17,7 @@ class subSystemA {
   }
   
   class Facade {
-    subClassA(value): String{
+    subClassA(value): string{
       return new subSystemA().method(value);
     }
   

@@ -4,7 +4,7 @@ export class SmartHouseLight {
 
     constructor(public name:string){}
 
-    getPowerStatus(): String {
+    getPowerStatus(): string {
         return this.isOn ? 'ON' : 'OFF';
     }
 
